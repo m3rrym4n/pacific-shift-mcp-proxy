@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv bashio
+
+bashio::log.info "Starting Pacific Shift MCP Proxy..."
+
+exec python3 /usr/bin/mcp_proxy.py
