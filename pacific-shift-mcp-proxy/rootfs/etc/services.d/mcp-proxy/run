@@ -2,4 +2,4 @@
 
 bashio::log.info "Starting Pacific Shift MCP Proxy..."
 
-exec python3 /usr/bin/mcp_proxy.py
+exec python3 /usr/bin/start.py

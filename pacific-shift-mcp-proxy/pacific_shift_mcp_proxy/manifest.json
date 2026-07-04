@@ -1,0 +1,10 @@
+{
+  "domain": "pacific_shift_mcp_proxy",
+  "name": "Pacific Shift MCP Proxy",
+  "version": "1.0.0",
+  "config_flow": true,
+  "iot_class": "local_push",
+  "documentation": "https://github.com/m3rrym4n/pacific-shift-mcp-proxy",
+  "codeowners": ["@m3rrym4n"],
+  "requirements": []
+}

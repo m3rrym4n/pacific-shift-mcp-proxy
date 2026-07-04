@@ -1,6 +1,6 @@
 name: "Pacific Shift MCP Proxy"
 description: "Multi-route MCP webhook proxy — exposes multiple LAN MCP servers through Nabu Casa"
-version: "1.0.0"
+version: "2.0.0"
 slug: "pacific_shift_mcp_proxy"
 init: false
 arch:
@@ -12,8 +12,8 @@ map:
   - config:rw
 options:
   routes:
-    - name: "example"
-      upstream: "http://192.168.1.68:6001"
+    - name: "bookstack"
+      upstream: "http://192.168.1.68:6001/mcp"
   remote_url: ""
   debug_logging: false
 schema:
